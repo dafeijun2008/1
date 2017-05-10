@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>星辰海投资 - 安全的互联网金融资产交易平台</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="lib/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/vice.css">
+</head>
+<body>
+<header id="header">
+  <div class="topbar visible-md visible-lg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <i class="glyphicon glyphicon-earphone"></i>
+          <span>4006-89-4006（服务时间：9:00-21:00）</span>
+        </div>
+        <div class="col-md-3 text-center">
+          市场有风险，投资需谨慎！
+        </div>
+        <div class="col-md-2 text-center">
+          <a href="#" class="mobile-link">
+            <i class="glyphicon glyphicon-phone"></i>
+            <span>手机星辰海</span>
+            <i class="glyphicon glyphicon-chevron-down"></i>
+            <img src="img/erweima.png" height="136" width="120" alt="扫一扫">
+          </a>
+        </div>
+        <div class="col-md-3 text-center"  >
+          <div id="nav_user"></div>
+          <a href="register.html" class="btn btn-itcast btn-sm">免费注册</a>
+          <a href="login.html" class="btn btn-link btn-sm">登录</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-itcast navbar-static-top" data-spy="affix" data-offset-top="260" data-offset-bottom="200">
+    <div class="container">
+      <div class="navbar-header">
+        <button id="btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav_list" aria-expanded="false">
+          <span class="sr-only">切换菜单</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img  class="logo" src="img/logo.png">
+        </a>
+      </div>
+      <div id="nav_list" class="collapse navbar-collapse">
+
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">首页</a></li>
+          <li><a href="product_list.html">我要投资</a></li>
+          <li><a href="#">我要借款</a></li>
+          <li><a href="#">平台介绍</a></li>
+          <li><a href="#">最新动态</a></li>
+          <li><a href="#">微论坛</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right hidden-sm">
+          <!--<li><a href="login.html"><i class="icon-nav"></i> 个人中心</a></li>-->
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+  <!--产品-->
+  <section id="product_list">
+    <div class="container">
+      <ul class="breadcrumb">
+        <li><a href="index.html">首页</a></li>
+        <li>我要投资</li>
+      </ul>
+    </div>
+
+    <div class="list_title">
+      <ul class="nav nav-pills">
+        <li class="qixian">投资期限：</li>
+        <li>
+          <select id="selectType">
+            <option value="-1">—请投资类型—</option>
+            <option value="6">6个月</option>
+            <option value="12">12个月</option>
+            <option value="24">24个月</option>
+          </select>
+
+
+        </li>
+        <!--<li><a href="#pan2"  data-toggle="pill">12个月</a></li>-->
+        <!--<li><a href="#pan3"  data-toggle="pill">24个月</a></li>-->
+      </ul>
+      <div class="container">
+        <div class="row title">
+          <div class="col-xs-3">借款标题</div>
+          <div class="col-xs-1">借款金额</div>
+          <div class="col-xs-2">预期年化收益</div>
+          <div class="col-xs-1">借款期限</div>
+          <div class="col-xs-2">还款方式</div>
+          <div class="col-xs-1">进度</div>
+          <div class="col-xs-2"></div>
+        </div>
+      </div>
+      <!--面板-->
+      <div class="tab-content">
+        <div class="tab-pane active" id="pan1">
+          <div class="container">
+            <div class="row product">
+              <div class="col-xs-3"><img src="img/icon-1.png" alt=""><span class="qiye">企业借款-8888</span></div>
+              <div class="col-xs-1">100万</div>
+              <div class="col-xs-2"><strong>12%</strong></div>
+              <div class="col-xs-1"><span>6</span>个月</div>
+              <div class="col-xs-2">等额本息</div>
+              <div class="col-xs-1">88%</div>
+              <div class="col-xs-2"><strong><a href=""><button class="button">立刻投资</button></a></strong></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row product">
+              <div class="col-xs-3"><img src="img/icon-1.png" alt=""><span class="qiye">企业借款-8888</span></div>
+              <div class="col-xs-1">100万</div>
+              <div class="col-xs-2"><strong>12%</strong></div>
+              <div class="col-xs-1"><span>6</span>个月</div>
+              <div class="col-xs-2">等额本息</div>
+              <div class="col-xs-1">88%</div>
+              <div class="col-xs-2"><strong><a href=""><button class="button">立刻投资</button></a></strong></div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade in" id="pan2">
+          <div class="container">
+            <div class="row product">
+              <div class="col-xs-3"><img src="img/icon-1.png" alt=""><span class="qiye">企业借款-8888</span></div>
+              <div class="col-xs-1">100万</div>
+              <div class="col-xs-2"><strong>12%</strong></div>
+              <div class="col-xs-1"><span>6</span>个月</div>
+              <div class="col-xs-2">等额本息</div>
+              <div class="col-xs-1">88%</div>
+              <div class="col-xs-2"><strong><a href=""><button class="button">立刻投资</button></a></strong></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row product">
+              <div class="col-xs-3"><img src="img/icon-1.png" alt=""><span class="qiye">企业借款-8888</span></div>
+              <div class="col-xs-1">100万</div>
+              <div class="col-xs-2"><strong>12%</strong></div>
+              <div class="col-xs-1"><span>6</span>个月</div>
+              <div class="col-xs-2">等额本息</div>
+              <div class="col-xs-1">88%</div>
+              <div class="col-xs-2"><strong><a href=""><button class="button">立刻投资</button></a></strong></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row product">
+              <div class="col-xs-3"><img src="img/icon-1.png" alt=""><span class="qiye">企业借款-8888</span></div>
+              <div class="col-xs-1">100万</div>
+              <div class="col-xs-2"><strong>12%</strong></div>
+              <div class="col-xs-1"><span>6</span>个月</div>
+              <div class="col-xs-2">等额本息</div>
+              <div class="col-xs-1">88%</div>
+              <div class="col-xs-2"><strong><a href=""><button class="button">立刻投资</button></a></strong></div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pan3">
+          <div class="container">
+            <div class="row product">
+              <div class="col-xs-3"><img src="img/icon-1.png" alt=""><span class="qiye">企业借款-8888</span></div>
+              <div class="col-xs-1">100万</div>
+              <div class="col-xs-2"><strong>12%</strong></div>
+              <div class="col-xs-1"><span>6</span>个月</div>
+              <div class="col-xs-2">等额本息</div>
+              <div class="col-xs-1">88%</div>
+              <div class="col-xs-2"><strong><a href=""><button class="button">立刻投资</button></a></strong></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row product">
+              <div class="col-xs-3"><img src="img/icon-1.png" alt=""><span class="qiye">企业借款-8888</span></div>
+              <div class="col-xs-1">100万</div>
+              <div class="col-xs-2"><strong>12%</strong></div>
+              <div class="col-xs-1"><span>6</span>个月</div>
+              <div class="col-xs-2">等额本息</div>
+              <div class="col-xs-1">88%</div>
+              <div class="col-xs-2"><strong><a href=""><button class="button">立刻投资</button></a></strong></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row product">
+              <div class="col-xs-3"><img src="img/icon-1.png" alt=""><span class="qiye">企业借款-8888</span></div>
+              <div class="col-xs-1">100万</div>
+              <div class="col-xs-2"><strong>12%</strong></div>
+              <div class="col-xs-1"><span>6</span>个月</div>
+              <div class="col-xs-2">等额本息</div>
+              <div class="col-xs-1">88%</div>
+              <div class="col-xs-2"><strong><a href=""><button class="button">立刻投资</button></a></strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class=" pagination">
+        <li><a href="#">上一页</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">...</a></li>
+        <li><a href="#">下一页</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+
+    </div>
+
+  </section>
+  <!--/产品-->
+
+
+  <!-- 合作伙伴 -->
+  <div class="footer_box"></div>
+  <script src="lib/jquery/jquery.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+  <script src="lib/wow.min.js"></script>
+  <script>
+//    登陆跳转
+  $(function(){
+    console.log(sessionStorage.uname);
+    if(sessionStorage.uname){
+      var userHtml=`<span>${sessionStorage.uname}</span>，您好~
+    <a href="" id="user_quit">退出登陆</a>
+    <span><a href="" id="userdata">个人中心</a></span>`;
+      $('#nav_user').html(userHtml);}
+    $('#user_quit').click(function(){
+      sessionStorage.clear();
+      history.go(-1);
+     })
+    })
+  </script>
+<script>
+  selectType.onchange = function(){
+    var tid = this.value;//SELECT的value就是当前选中的option的value
+    if(tid==='-1'){
+//      panel.innerHTML = '';
+      return;
+    }
+    /**发起异步GET请求，获取所有的蛋糕列表**/
+    //1
+    var xhr = new XMLHttpRequest();
+    //2
+    xhr.onreadystatechange = function(){
+      if(xhr.readyState===4){
+        if(xhr.status===200){
+          doResponse(xhr);
+        }else {
+          alert('响应完成但有问题');
+        }
+      }
+    }
+    //3
+    xhr.open('GET','php/product_list.php?leixing='+tid, true);
+    //4
+    xhr.send(null);
+
+    function doResponse(xhr){
+      console.log('开始处理响应数据');
+      //把服务器端返回的JSON字符串解析为JS对象
+      var list = JSON.parse(xhr.responseText);
+      var html = '';
+      for(var i=0; i<list.length; i++){
+        var product = list[i];
+        html += `
+          <div class="container">
+            <div class="row product">
+              <div class="col-xs-3"><img src="img/icon-1.png" alt=""><span class="qiye">${product.biaoti}</span></div>
+              <div class="col-xs-1">${product.jine}</div>
+              <div class="col-xs-2"><strong>${product.shouyi}</strong></div>
+              <div class="col-xs-1"><span>${product.qixian}</span></div>
+              <div class="col-xs-2">${product.fangshi}</div>
+              <div class="col-xs-1">${product.jindu}</div>
+              <div class="col-xs-2"><strong><a href=""><button class="button">立刻投资</button></a></strong></div>
+            </div>
+          </div>
+          `;
+      }
+      pan1.innerHTML = html;
+    }
+  }
+</script>
+</body>
+</html>

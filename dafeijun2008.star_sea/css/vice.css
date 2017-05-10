@@ -1,0 +1,289 @@
+
+
+/*登陆*/
+.login{
+    padding: 40px 0;
+}
+.login-left {
+    float: left;
+}
+.login-right {
+    border: solid 1px #ddd;
+    padding: 20px 20px 0 40px;
+    height: 403px;
+    width: 443px;;
+    margin-bottom: 50px;
+    float: left;
+    background: white;
+    box-shadow: 2px 2px 3px #ccc;
+    position: relative;
+}
+.login-right ul li{
+    margin-top: 8px;
+}
+.login-right p{
+    font-size: 25px;
+    color: #f90;
+}
+.login .tips {
+    font-size: 12px;
+    color:#f00;
+    display: none;
+    margin-left: 174px;
+}
+.login .warm{
+    height: 5px;
+}
+.login em {
+    position: absolute;
+    top: 1px;
+    left:1px;
+    width: 36px;
+    height: 36px;
+    background: #f5f5f5 url(../images/iconlist.png) no-repeat;
+    border-right: 1px solid #c6efc2;
+    border-radius: 2px 0 0 2px;}
+.login em.icon_user {
+    background-position: 6px -584px;
+}
+.login em.icon_pwd {
+    background-position: 9px -622px;
+}
+.login i {
+    position: absolute;
+    width:20px;
+    height:14px;
+    background:url(../images/iconlist.png) no-repeat;
+    right:6px;
+    top:12px;
+    display: none;
+}
+.login i.icon_error {
+    background-position:0 -670px;
+}
+
+
+.login-right ul li input{
+    width: 238px;
+    height: 30px;
+}
+.login-right ul li img{
+    vertical-align: middle;
+}
+.login-right ul li>.vcode {
+    height: 32px;
+}
+.login-right ul li .checkbox{
+    width: 10px;
+    display: inline;
+    height: 10px;
+    margin-left: 40px;
+}
+.login-right ul li .valid{
+    width:122px;
+}
+.login-right .forget{
+    margin-left: 70px;
+}
+.login-right .login_button{
+    outline: none;
+    width: 120px;
+    height: 38px;
+    border: 0;
+    background: #72b134;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 80px;
+    border-radius: 5px;
+}
+
+
+/*注册页面*/
+.register_box {
+    margin-top:40px;
+    box-shadow: 0px 0px 3px #ccc;
+    background: #fff;
+    padding: 15px 0 60px;
+}
+.register {
+    width: 800px;
+    margin: 0 auto;
+}
+.register>h2 {
+    line-height: 70px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 18px;
+    color:#f90;
+    font-weight: lighter;
+}
+.register>ul {
+    margin-top: 36px;
+}
+.register>ul>li {
+    margin-bottom: 22px;
+    line-height: 40px;
+    height: 40px;
+}
+.register>ul>li>span,.register>ul>li>input, .register>ul>li>em, .register>ul>li>i,.register>ul>li>img,.register>ul>li>strong,.register>ul>li>button {
+    float: left;
+}
+.register>ul>li>div {
+    margin-left:120px;
+    width: 120px;
+    text-align: right;
+    font-size: 16px;
+    color:#666;
+    display: inline;
+    float: left;
+}
+.register>ul>li>input {
+    width: 320px;
+    height: 38px;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    padding: 0 10px;
+}
+.register>ul>li>input.inp_yzm {
+    width: 160px;
+}
+.register>ul>li>em {
+    display: none;
+    margin: 12px 6px 0;
+    width: 20px;
+    height: 14px;
+}
+.register>ul>li>em.icon_ok {
+    background-position:0 -690px;
+}
+.register>ul>li>em.icon_error {
+    background-position:0 -670px;
+}
+.register>ul>li>i {
+    display: none;
+    color:#f00;
+    font-style: normal;
+}
+.register>ul>li>img {
+    margin-left: 16px;
+}
+.register>ul>li>.vcode{
+    width: 150px;;
+}
+.register>ul>li>strong {
+    width:22px;
+    height:26px;
+    margin-left: 14px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.register .li_checkbox {
+    margin-top: 40px;
+}
+.register .li_checkbox label {
+    margin-left:240px;
+}
+.register .li_checkbox input {
+    vertical-align: middle;
+}
+.register .li_checkbox span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.register button {
+    outline: none;
+    margin-left: 240px;
+    width: 320px;
+    height:38px;
+    border:0;
+    background: #72b134;
+    color:#fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.register button:hover {
+    background: #65a428;
+}
+.li_btn>button.disabled{
+    background: #ccc;
+    cursor: default;
+}
+
+
+
+
+/*产品列表*/
+
+.list_title{
+    width: 1140px;
+    height: 800px;
+    margin:0px auto;
+    box-shadow:0px 0px 8px #daa02b;
+    position: relative;
+}
+
+.list_title>.pagination{
+    position: absolute;
+    left: 50%;
+    top:85%;
+    margin-left:-150px;
+}
+.breadcrumb{
+    background: transparent;
+
+}
+.list_title>.nav-pills{
+    margin-left: 20px;
+}
+.list_title>.nav-pills>li{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: large;
+}
+.list_title>.nav-pills .qixian{
+    margin-left: 20px;
+    margin-top: 32px;
+}
+
+.tab-content  .row.product{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.tab-content  .row.product .col-xs-3 span{
+    vertical-align: top;
+}
+.tab-content  .row.product .col-xs-3 img{
+    margin-top: -6px;
+}
+.tab-content .container{
+    height: 80px;
+}
+.tab-content .container button{
+    border:none;
+    background: #fab018;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+.tab-content .tab-pane .container:nth-child(even){
+    background: rgba(218, 161, 45, 0.04);
+}
+.list_title>.container>.row.title{
+    border-bottom: 1px dashed #e1a415;
+    margin-left:7px;
+}
+.list_title>.container>.row.title>div{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.list_title>.container>.row div+div{
+    border-left:1px solid #e1a415;
+}
+
+label{
+    font-weight:normal;
+}

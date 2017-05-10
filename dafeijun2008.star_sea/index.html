@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>星辰海投资 - 安全的互联网金融资产交易平台</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="lib/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="topbar visible-md visible-lg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <i class="glyphicon glyphicon-earphone"></i>
+          <span>4006-89-4006（服务时间：9:00-21:00）</span>
+        </div>
+        <div class="col-md-3 text-center">
+          市场有风险，投资需谨慎！
+        </div>
+        <div class="col-md-2 text-center">
+          <a href="#" class="mobile-link">
+            <i class="glyphicon glyphicon-phone"></i>
+            <span>手机星辰海</span>
+            <i class="glyphicon glyphicon-chevron-down"></i>
+            <img src="img/erweima.png" height="136" width="120" alt="扫一扫">
+          </a>
+        </div>
+        <div class="col-md-3 text-center"  >
+          <div id="nav_user"></div>
+          <a href="register.html" class="btn btn-itcast btn-sm">免费注册</a>
+          <a href="login.html" class="btn btn-link btn-sm">登录</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-itcast navbar-static-top" data-spy="affix" data-offset-top="260" data-offset-bottom="200">
+    <div class="container">
+      <div class="navbar-header">
+        <button id="btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav_list" aria-expanded="false">
+          <span class="sr-only">切换菜单</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img  class="logo" src="img/logo.png">
+        </a>
+      </div>
+      <div id="nav_list" class="collapse navbar-collapse">
+
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">首页</a></li>
+          <li><a href="product_list.html">我要投资</a></li>
+          <li><a href="#">我要借款</a></li>
+          <li><a href="#">平台介绍</a></li>
+          <li><a href="#">最新动态</a></li>
+          <li><a href="#">微论坛</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right hidden-sm">
+          <!--<li><a href="login.html"><i class="icon-nav"></i> 个人中心</a></li>-->
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- 广告轮播 -->
+<section id="main_ad" class="carousel slide" data-ride="carousel">
+  <!-- 下面的小点点，活动指示器 -->
+  <ol class="carousel-indicators">
+    <li data-target="#main_ad" data-slide-to="0" class="active"></li>
+    <li data-target="#main_ad" data-slide-to="1"></li>
+    <li data-target="#main_ad" data-slide-to="2"></li>
+    <li data-target="#main_ad" data-slide-to="3"></li>
+  </ol>
+  <!-- 轮播项 -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" data-image-lg="img/slide_01_2000x410.jpg" data-image-xs="img/slide_01_640x340.jpg"></div>
+    <div class="item" data-image-lg="img/slide_02_2000x410.gif" data-image-xs="img/slide_02_640x340.jpg"></div>
+    <div class="item" data-image-lg="img/slide_03_2000x410.jpg" data-image-xs="img/slide_03_640x340.png"></div>
+    <div class="item" data-image-lg="img/slide_04_2000x410.jpg" data-image-xs="img/slide_04_640x340.jpg"></div>
+
+  </div>
+  <!-- 控制按钮 -->
+  <a class="left carousel-control" href="#main_ad" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">上一页</span>
+  </a>
+  <a class="right carousel-control" href="#main_ad" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">下一页</span>
+  </a>
+</section>
+<!-- /广告轮播 -->
+  <!--总资金-->
+  <section id="moneyinfo">
+    <div class="container visible-md visible-lg">
+      <div class="row">
+        <div class="col-md-3">
+          <span>已撮合融资</span><br>
+            <b>115</b> 亿
+            <b>2822</b> 万元
+          </div>
+        <div class="col-md-3">
+          <span>为理财人赚取收益</span><br>
+          <b>4</b> 亿
+          <b>3268</b> 万元
+        </div>
+        <div class="col-md-3">
+          <span>昨日交易额</span><br>
+          <b>1163</b> 万元
+        </div>
+        <div class="col-md-3">
+          <span class="ico_r">
+            <a href="">查看更多</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--/总资金-->
+  <!-- 立即预约 -->
+  <section id="ljyy">
+    <div class="container">
+      <p class="pull-left"><i class="icon-uniE906"></i>现在有<span>458</span>人在排队，累计预约交易成功<span>7409</span>次。 什么是预约投标？ <a href="#">立即预约</a></p>
+      <p class="pull-right hidden-sm hidden-xs"><a href="#"><i class="icon-uniE905"></i> 星辰海企业宣传片</a></p>
+    </div>
+  </section>
+  <!-- /立即预约 -->
+  <!-- 特色介绍 -->
+  <section id="tese" class="hidden-xs">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-4 wow fadeInLeft " data-wow-offset="100" data-wow-duration="0.6s">
+          <a href="#">
+            <div class="media">
+              <div class="media-left">
+                <i class="icon-tese1"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">稳健收益</h4>
+                <p>Steady Income</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 wow fadeInDown" data-wow-offset="100" data-wow-duration="0.6s" data-wow-delay="0.2s" >
+          <a href="#">
+            <div class="media">
+              <div class="media-left">
+                <i class="icon-tese2"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">银联支付</h4>
+                <p>Unionpay pay</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 wow fadeInRight" data-wow-offset="100" data-wow-delay="0.4s" data-wow-duration="0.6s">
+          <a href="#">
+            <div class="media">
+              <div class="media-left">
+                <i class="icon-tese3"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">资金安全</h4>
+                <p>Capital Security</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 wow bounceInLeft" data-wow-offset="50" data-wow-delay="0.6s" data-wow-duration="0.6s">
+          <a href="#">
+            <div class="media">
+              <div class="media-left">
+                <i class="icon-tese4"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">私人保障</h4>
+                <p>Privacy Protection</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 wow bounceInUp" data-wow-offset="50" data-wow-delay="0.8s" data-wow-duration="0.6s">
+          <a href="#">
+            <div class="media">
+              <div class="media-left">
+                <i class="icon-tese5"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">支付交易保障</h4>
+                <p>Payment for transaction</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 wow bounceInRight" data-wow-offset="50" data-wow-delay="1s" data-wow-duration="0.6s">
+          <a href="#">
+            <div class="media">
+              <div class="media-left">
+                <i class="icon-tese6"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">银行资金存储</h4>
+                <p>Bank financing</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /特色介绍 -->
+  <!-- 产品推荐 -->
+  <section id="products">
+    <div class="container">
+      <!-- 选项卡标题 -->
+      <div class="ul-wapper">
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#category_01" aria-controls="category_01" role="tab" data-toggle="tab" aria-expanded="false">特别推荐</a></li>
+          <li role="presentation"><a href="#category_02" aria-controls="category_02" role="tab" data-toggle="tab" aria-expanded="true">短期灵活</a></li>
+          <li role="presentation"><a href="#category_03" aria-controls="category_03" role="tab" data-toggle="tab" aria-expanded="false">中期稳健</a></li>
+          <li role="presentation"><a href="#category_04" aria-controls="category_04" role="tab" data-toggle="tab" aria-expanded="false">长期省心</a></li>
+          <li role="presentation"><a href="#category_05" aria-controls="category_05" role="tab" data-toggle="tab" aria-expanded="false">微增利</a></li>
+          <li role="presentation"><a href="#category_06" aria-controls="category_06" role="tab" data-toggle="tab">微金宝</a></li>
+          <li role="presentation"><a href="#category_06" aria-controls="category_06" role="tab" data-toggle="tab">微转让</a></li>
+          <li class="pull-right hidden-sm hidden-xs"><a href="#">更多</a></li>
+        </ul>
+      </div>
+      <!-- 所有的选项卡内容 -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="category_01">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 wow rotateInDownLeft" data-wow-offset="120" data-wow-delay="" data-wow-duration="0.6s">
+              <div class="panel panel-czbk actived">
+                <div class="panel-heading">
+                  <p><strong>8</strong><sub>%</sub></p>
+                  <p><span>年利率</span></p>
+                </div>
+                <div class="panel-body">
+                  <h4>新手体验表0008期</h4>
+                  <div class="row">
+                    <div class="col-xs-6 text-left">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-left">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 wow rotateInDownLeft" data-wow-offset="120" data-wow-delay="0.2s" data-wow-duration="0.6s">
+              <div class="panel panel-czbk first">
+                <div class="ed"></div>
+                <div class="panel-heading">
+                  <p class="tooltips">
+                    <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">收</a>
+                    <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">益</a>
+                  </p>
+                  <p><strong>8</strong><sub>%</sub></p>
+                  <p><span>年利率</span></p>
+                </div>
+                <div class="panel-body">
+                  <h4>新手体验表0008期</h4>
+                  <div class="row">
+                    <div class="col-xs-6 text-left">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-left">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 wow rotateInDownLeft" data-wow-offset="120" data-wow-delay="0.4s" data-wow-duration="0.6s">
+              <div class="panel panel-czbk first">
+                <div class="ed"></div>
+                <div class="panel-heading">
+                  <p class="tooltips">
+                    <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">莞</a>
+                    <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">珠</a>
+                  </p>
+                  <p><strong>8</strong><sub>%</sub></p>
+                  <p><span>年利率</span></p>
+                </div>
+                <div class="panel-body">
+                  <h4>新手体验表0008期</h4>
+                  <div class="row">
+                    <div class="col-xs-6 text-left">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-left">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 wow rotateInDownLeft" data-wow-offset="50" data-wow-delay="0.6s" data-wow-duration="0.6s">
+              <div class="panel panel-czbk first">
+                <div class="ed"></div>
+                <div class="panel-heading">
+                  <p class="tooltips">
+                    <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">广</a>
+                    <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">深</a>
+                  </p>
+                  <p><strong>8</strong><sub>%</sub></p>
+                  <p><span>年利率</span></p>
+                </div>
+                <div class="panel-body">
+                  <h4>新手体验表0008期</h4>
+                  <div class="row">
+                    <div class="col-xs-6 text-left">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-left">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 wow rotateInDownLeft" data-wow-offset="50" data-wow-delay="0.8s" data-wow-duration="0.6s">
+              <div class="panel panel-czbk first">
+                <div class="ed"></div>
+                <div class="panel-heading">
+                  <p class="tooltips">
+                    <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">投</a>
+                    <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">资</a>
+                  </p>
+                  <p><strong>8</strong><sub>%</sub></p>
+                  <p><span>年利率</span></p>
+                </div>
+                <div class="panel-body">
+                  <h4>新手体验表0008期</h4>
+                  <div class="row">
+                    <div class="col-xs-6 text-left">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-left">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 wow rotateInDownLeft" data-wow-offset="50" data-wow-delay="1s" data-wow-duration="0.6s">
+              <div class="panel panel-czbk first">
+                <div class="ed"></div>
+                <div class="panel-heading">
+                  <p class="tooltips">
+                    <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">利</a>
+                    <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">好</a>
+                  </p>
+                  <p><strong>8</strong><sub>%</sub></p>
+                  <p><span>年利率</span></p>
+                </div>
+                <div class="panel-body">
+                  <h4>新手体验表0008期</h4>
+                  <div class="row">
+                    <div class="col-xs-6 text-left">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-left">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <p>起步价</p>
+                      <p><strong>1000.00</strong><sub>万</sub></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="category_02"><div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk actived">
+              <div class="panel-heading">
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">收</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">益</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">莞</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">珠</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">广</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">深</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">投</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">资</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div></div>
+        <div role="tabpanel" class="tab-pane fade" id="category_03"><div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk actived">
+              <div class="panel-heading">
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">收</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">益</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">莞</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">珠</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">广</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">深</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">投</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">资</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">利</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">好</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div></div>
+        <div role="tabpanel" class="tab-pane fade" id="category_04"><div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">收</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">益</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">莞</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">珠</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">广</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">深</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">投</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">资</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">利</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">好</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div></div>
+        <div role="tabpanel" class="tab-pane fade" id="category_05"><div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk actived">
+              <div class="panel-heading">
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">收</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">益</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">莞</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">珠</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">广</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">深</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">投</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">资</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">利</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">好</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div></div>
+        <div role="tabpanel" class="tab-pane fade" id="category_06"><div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk actived">
+              <div class="panel-heading">
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">收</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">益</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">莞</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">珠</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">广</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">深</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">投</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">资</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-czbk first">
+              <div class="ed"></div>
+              <div class="panel-heading">
+                <p class="tooltips">
+                  <a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="" href="#">利</a>
+                  <a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="" href="#">好</a>
+                </p>
+                <p><strong>8</strong><sub>%</sub></p>
+                <p><span>年利率</span></p>
+              </div>
+              <div class="panel-body">
+                <h4>新手体验表0008期</h4>
+                <div class="row">
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-left">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                  <div class="col-xs-6 text-right">
+                    <p>起步价</p>
+                    <p><strong>1000.00</strong><sub>万</sub></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div></div>
+      </div>
+    </div>
+  </section>
+  <!-- /产品推荐 -->
+  <!-- 新闻列表 -->
+  <section id="news">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 ">
+          <div class="news-title" >全部新闻</div>
+          <div class="news-title" >媒体新闻</div>
+          <div class="news-title">行业资讯</div>
+          <div class="news-title"><a href="">更多动态</a></div>
+        </div>
+        <div class="col-sm-1">
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation" class="active"><a data-title="全部新闻" href="#news01" data-toggle="tab"><i class="icon-news01"></i></a></li>
+            <li role="presentation"><a data-title="媒体新闻" href="#news02" data-toggle="tab" role="tab"><i class="icon-news02"></i></a></li>
+            <li role="presentation"><a data-title="行业资讯" href="#news03" data-toggle="tab" role="tab"><i class="icon-news03"></i></a></li>
+            <li role="presentation"><a data-title="XXXX" href="#news04" data-toggle="tab" role="tab"><i class="icon-news04"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9">
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="news01">
+              <ul>
+                <li>
+                  <div class="media">
+                    <div class="media-left">
+                      <a href="#">
+                       <img class="media-object" src="img/news.jpg" width="200px">
+                      </a>
+                   </div>
+                   <div class="media-body">
+                      <h4 class="media-heading">央视网消息(新闻联播)：用技术打破信息壁垒、以数据跟踪信用记录，互联网技术优势正在冲破金融领域的种种信息壁垒。</h4>
+                   </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="news02">
+              <ul>
+                <li><div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="img/news.jpg" width="200px">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">央视网消息(新闻联播)：用技术打破信息壁垒、以数据跟踪信用记录，互联网技术优势正在冲破金融领域的种种信息壁垒。</h4>
+                  </div>
+                </div></li>
+              </ul>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="news03">
+              <ul>
+                <li><div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="img/news.jpg" width="200px">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">央视网消息(新闻联播)：用技术打破信息壁垒、以数据跟踪信用记录，互联网技术优势正在冲破金融领域的种种信息壁垒。</h4>
+                  </div>
+                </div></li>
+                <li><div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="img/news.jpg" width="200px">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">央视网消息(新闻联播)：用技术打破信息壁垒、以数据跟踪信用记录，互联网技术优势正在冲破金融领域的种种信息壁垒。</h4>
+                  </div>
+                </div>/li>
+              </ul>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="news04">
+              <ul>
+                <li><div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="img/news.jpg" width="200px">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">央视网消息(新闻联播)：用技术打破信息壁垒、以数据跟踪信用记录，互联网技术优势正在冲破金融领域的种种信息壁垒。</h4>
+                  </div>
+                </div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /新闻列表 -->
+<div class="footer_box"></div>
+  <script src="lib/jquery/jquery.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+  <script src="lib/wow.min.js"></script>
+  <script>
+  $(function(){
+    console.log(sessionStorage.uname);
+    if(sessionStorage.uname){
+      var userHtml=`<span>${sessionStorage.uname}</span>，您好~
+    <a href="" id="user_quit">退出登陆</a>
+    <span><a href="" id="userdata">个人中心</a></span>`;
+      $('#nav_user').html(userHtml);}
+    $('#user_quit').click(function(){
+      sessionStorage.clear();
+      history.go(-1);
+    })
+  })
+</script>
+
+</body>
+</html>

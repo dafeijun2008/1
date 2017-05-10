@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>星辰海投资 - 安全的互联网金融资产交易平台</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="lib/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/vice.css">
+  <link rel="stylesheet" href="css/smoothness/jquery.ui.css">
+</head>
+<body>
+<div class="header_box"></div>
+
+  <!--注册-->
+  <section class="register_box container">
+    <div class="register">
+      <h2>新用户注册</h2>
+        <ul>
+          <li>
+            <div>邮箱：</div>
+            <input type="text" id="uname" placeholder="请输入邮箱名"/>
+            <em></em>
+            <i></i>
+          </li>
+          <li>
+            <div>手机号：</div>
+            <input type="text" id="phone" placeholder="请输入手机号"/>
+            <em></em>
+            <i></i>
+          </li>
+          <li>
+            <div>密码：</div>
+            <input type="password" id="upwd" placeholder="请输入密码"/>
+            <em></em>
+            <i></i>
+          </li>
+          <li>
+            <div>重复密码：</div>
+            <input type="password" id="upwd2" placeholder="请重复输入密码"/>
+            <em></em>
+            <i></i>
+          </li>
+          <li>
+            <div>验证码：</div>
+            <input type="text" class="inp_yzm" placeholder="请输入验证码"/>
+            <img src="php/vcode.php" class="vcode" onclick="refresh()"/>
+          </li>
+          <li class="li_checkbox"><label>
+            <input type="checkbox" checked/>
+            <strong>我已阅读并同意用户注册协议</strong>
+          </label>
+          </li>
+          <li class="li_btn">
+            <button type="button" id="register">提交注册</button>
+          </li>
+        </ul>
+
+    </div>
+  </section>
+  <!--/注册-->
+
+
+<div class="footer_box"></div>
+  <script src="lib/jquery/jquery.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+  <script src="lib/wow.min.js"></script>
+  <script src="lib/jquery/jquery.ui.js"></script>
+  <script src="js/register.js"></script>
+</body>
+</html>

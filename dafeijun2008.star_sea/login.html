@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>星辰海投资 - 安全的互联网金融资产交易平台</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="lib/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/vice.css">
+</head>
+<body>
+  <div class="header_box"></div>
+  <!--登陆-->
+  <section class="login">
+    <div class="container">
+        <div class="login-left">
+          <a href="index.html">
+            <img src="img/login.jpg" class="img">
+          </a>
+        </div>
+        <div class="login-right">
+          <p>用户登录</p>
+          <ul>
+            <li class="warm">
+                <span class="tips" id="uname_tips">用户名不能为空</span>
+            </li>
+            <li>
+                <label>
+                    <img src="img/login-user.jpg" alt="">
+                    <input type="text" placeholder="邮箱/手机号码"  id="uname">
+                </label>
+            </li>
+            <li class="warm">
+                  <span class="tips" id="upwd_tips">密码不能为空</span>
+            </li>
+            <li>
+                <label>
+                    <img src="img/login-pass.jpg" alt="">
+                    <input type="password" placeholder="密码" autocomplete="off" id="upwd">
+                </label>
+            </li>
+            <li class="warm"></li>
+            <li>
+                <label >
+                    <img src="img/login-valid.jpg" >
+                    <input type="text" placeholder="验证码"  class="valid">
+                </label>
+              <img class="vcode" src="php/vcode.php" onclick="refresh()">
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" class="checkbox"> 记住我
+                </label>
+              <a href="" class="forget">忘记密码</a>
+            </li>
+            <li><button  class="login_button" id="login" >登陆</button></li>
+            <li>
+              <span>还没有账号？</span>
+              <a href="register.html">免费注册</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </section>
+  <!--/登陆-->
+  <!-- 合作伙伴 -->
+ <div class="footer_box"></div>
+  <script src="lib/jquery/jquery.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+  <script src="lib/wow.min.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
